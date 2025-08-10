@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/* ######################## background style ######################### */
+.header{
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image7.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    position: relative;
+}
+
+
+
+
+/* ############################## Nav bar style ########################### */
+.navbar .logo{
+    float :left;
+    font-size: 3.5rem;
+}
+
+.navbar .nav-items{
+    float :right;
+}
+
+.navbar .nav-items li{
+    display: inline-block;
+    font-size: 1.4rem;
+    
+}
+
+.nav-items .nav-item{
+  margin:2em;
+  padding-bottom: 0.5em;
+}
+
+li:hover{
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+
+
+.logo{
+    font-size: 2.5rem;
+    padding-top: 0.6em;
+}
+
+
+
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+/* ####################### uitility classer ################################ */
+.container{
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.line-height{
+    line-height: 2em;
+}
+
+
+.btn{
+    text-decoration: none;
+}
+
+.letter-spacing{
+    letter-spacing: 0.1em;
+}
+
+.text-red{
+    color: rgb(210, 34, 34);
+}
+
+.text-gray{
+    color: rgb(227, 220, 220);
+}
+.back-white{
+    background-color: white;
+}
+
+
+
+
+
+/* ############################ header content style ############################ */
+.header-content{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    text-align: center;
+    padding: 100px;
+    line-height: 2em;
+}
+
+
+.e-button{
+    display: inline-block;
+   border: 1px solid white;
+   margin-top: 1em;
+   background-color: white;
+   border-radius: 100px;
+   padding: 0.5em;
+}
+
+.e-button:hover{
+    background-color: rgb(137, 133, 133);
+}
+
+/* ############################## showcase style ############################### */
+.row{
+    
+    height: 35em;
+    margin: 10em auto;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+.showcase{
+    height: auto;
+    border: 4px solid  rgb(247, 235, 235);
+    background-color: rgb(247, 235, 235);
+}
+
+.subrow1,.subrow2{
+    width: 50%;
+    height: 100%;
+}
+
+.subrow1{
+    float: right;
+}
+.subrow2{
+    float: right;
+}
+.row::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.nature{
+    width: 100%;
+    height: 100%;
+}
+.sunset{
+    width: 100%;
+    height: 100%;
+}
+
+.egypt,.uk{
+    font-size: 3rem;
+    padding: 1em 0.2em;
+}
+.lorem{
+    
+    line-height: 2em;
+    padding: 0 0.2em;
+    font-size: 1.5rem;
+}
+
+
+.btn-more:hover{
+    background-color: rgb(137, 133, 133);
+}
+
+.btn-more{
+    display: inline-block;
+    border: 2px solid red;
+   margin-top: 1em;
+   background-color: white;
+   border-radius: 100px;
+   margin: 0.5em 1em;
+   padding: 1em 1.5em;
+   margin-top: 2em;
+}
+
+
+/* ################################## FEATURES STYLE ##################### */
+
+ .features{
+    margin: 10em auto;
+    box-shadow: 0px 0px 20px 0px #aaa;
+ }
+ .features h3{
+    font-size: 1.5rem;
+ }
+
+ .box{
+    padding: 3em;
+    text-align: center;
+ }
+ .box h3{
+    margin-bottom: 0.6em;
+ }
+
+.box1{
+    width: 33.33333%;
+    float: left;
+    background-color: rgb(29, 28,28);    
+}
+.box2{
+    width: 33.33333%;
+    float: left;
+    background-color: rgb(237, 62, 62);
+}
+.box3{
+    width: 33.33333%;
+    float: left;
+    background-color: rgb(29, 28, 28);
+}
+.features::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* #################################### footer style ########################### */
+.social-media-links{
+    background-color:rgb(29, 28, 28) ;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+.social-media-links i{
+    padding: 1em;
+}
+
+
+
+ /* ###################### About page style ##############################  */
+ .about{
+    background-color:rgb(29, 28, 28) ;
+ }
+
+ /* ########################### about item style ############################ */
+ .about-items h1,p,li{
+    color: rgb(91, 88, 88);
+ }
+ .about-heading{
+    font-size: 3rem;
+    margin-top: 1em ;
+    margin-bottom: 0.5em;
+    border-bottom: 6px solid red;
+ }
+ 
+ .about-items .about-list-items ul li{
+    list-style-type: none;
+    line-height: 2em;
+ }
+
+ 
+.list-items2{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.list-items1{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.about-items{
+    margin-bottom: 19rem;
+}
+
+.about-list-items::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.about-list-items{
+    margin-top: 3em;
+}
+.about-items .about-list-items ul li::before{
+    content: "\2713";
+    color: red;
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+
+/* ################################ count style ############################ */
+
+.count-items{
+    margin-top: 3em;
+}
+
+.count{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.count-items::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.count-items p{
+    font-weight: bold;
+}
+
+.count-items h1{
+    color: red;
+    margin-bottom: 0.3em;
+}
+
+/* ####################################### banner style ################################## */
+.banner{
+    margin-top: 3em;
+    border: 1px solid  rgb(238, 77, 77);
+    background-color: rgb(238, 77, 77);
+    padding: 0.6em;
+}
+.banner a{
+    width: 28%;
+    text-decoration: none;
+    float: right;
+    border: 2px solid white;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    padding: 1em 3em;
+    
+}
+.banner p{
+    width : 72%;
+    float: left;
+    padding-top: 1em;
+    color: white;
+    font-size: 1.6rem;
+}
+.banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+/* ########################### CONTACT PAGE STYLE ###################################### */
+.contact-header{
+    background-color:rgb(29, 28, 28)
+}
+
+.contact{
+    margin-bottom: 1em;
+}
+
+
+
+/* ################################# ADRESS STYLE ############################################## */
+.adress{
+    width: 49%;
+    float: left;
+    margin-top: 7em;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+.form{
+    width: 49%;
+    float: right;
+    margin-top: 7em;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+.contact::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.adress h1,i{
+    display: inline;
+}
+.adress-items i{
+color: red;
+margin-right: 0.3em;
+margin-left: 0.2em;
+}
+.adress-items{
+    margin-bottom: 1.5em;
+}
+.contact h1,p{
+    color: rgb(118, 112, 112);
+}
+.no p{
+    margin-bottom: 2em;
+}
+.office-photo img{
+    object-fit: cover;
+    object-position: right;
+    max-width: 90%;
+    min-height: 40rem;
+    margin-left: 0.2em;
+}
+
+/* ########################################### FORM STYLE ################################# */
+.form h1{
+    font-size: 2.5rem;
+    border-bottom: 6px solid red;
+    margin-bottom: 0.4em;
+}
+ 
+.form p{
+    line-height: 2em;
+    margin-bottom: 0.7em;
+    margin-left: 0.2em;
+}
+
+.form label{
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: 400;
+    margin-left: 0.2em;
+}
+
+.form input{
+    width: 99%;
+    margin-bottom: 1em;
+    margin-left: 0.2em;
+}
+
+.form textarea{
+    width: 99%;
+    height: 20em;
+    margin-left: 0.2em;
+    padding: 0.1em;
+    line-height: 1.3em;
+}
+
+.form button{
+    color: white;
+    background-color: red;
+    display: block;
+    margin: 1.4em auto;
+    padding: 0.5em 4em;
+    border: 2px solid red;
+    margin-bottom: 1.3em;
+}
+
+.form label::after{
+    content: "*";
+    color: red;
+    margin-left: 0.3rem;
+}
+
+.contact{
+    background-color: #fbf4f4;
+}
+
+.location{
+    margin-top: 0.2em;
+}
+
+
+
+
+
+/* ###################################### MEDIA QUERRIES ######################## */
+
+@media (max-width: 500px)
+{
+
+    :root{
+        font-size: 50%;
+    }
+    .navbar .logo,.nav-items{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        height: auto;
+    }
+
+    .subrow1,.subrow2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .features .box{
+        float: none;
+        width: 100%;
+    }
+
+    .box2,.box3{
+        margin-top: 5em;
+    }
+
+    .banner p{
+        margin-bottom: 2em;
+         width: 100%;
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    .contact{
+        width: 100%;
+        height: auto;
+    }
+
+    .banner a{
+         width: 100%;
+        float: none;
+        text-align: center;
+        display: block;
+        margin-top: 1em;
+        padding: 0;
+    }
+
+    .adress,.form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact{
+      margin-bottom: 0.4em;  
+    }
+
+}
+
+@media (min-width:501px) and (max-width:768px){
+    :root{
+        font-size: 56.25%;
+    }
+        .navbar .logo,.nav-items{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        height: auto;
+    }
+
+    .subrow1,.subrow2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .features .box{
+        float: none;
+        width: 100%;
+    }
+    
+    .box2,.box3{
+        margin-top: 5em;
+    }
+        .banner p{
+        margin-bottom: 2em;
+         width: 100%;
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    
+    .contact{
+        width: 100%;
+        height: auto;
+    }
+
+    .banner a{
+         width: 100%;
+        float: none;
+        text-align: center;
+        display: block;
+        margin-top: 1em;
+        padding: 0;
+    }
+
+    .about-items{
+        margin-bottom: 15rem;
+    }
+
+     .adress,.form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact{
+      margin-bottom: 0.4em;  
+    }
+
+}
+
+
+@media (min-width:769px) and (max-width:1200px){
+    html{
+        font-size: 62.5%;
+    }
+
+       .row{
+        width: 100%;
+        height: auto;
+    }
+
+    .subrow1,.subrow2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner a{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    
+    .adress,.form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact{
+      margin-bottom: 0.4em;  
+    }
+}
+
+@media (orientation: landscape) and (max-height:500px){
+    .header .h-travel{
+        display:none;
+    }
+    .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    padding: 100px;
+    line-height: 2em;
+}
+
+.lorem{
+    
+    line-height: 2em;
+    padding: 0 0.2em;
+    font-size: 1.2rem;
+}
+
+    .about-items {
+        margin-bottom: 1rem;
+    }
+}
